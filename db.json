@@ -9,7 +9,7 @@
 			"id": "sip:chatbot2@botplatform.example.com",
 			"name": "chatbot2",
 			"icon": "http://botplatform.example.com/chatbot2/icon.jpg"
-		},
+		}
 
 	],
 	"itemsReturned": 2,
