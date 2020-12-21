@@ -15,7 +15,7 @@
 		"itemsReturned": 2,
 		"startIndex": 1,
 		"totalItems": 2
-	}
+	},
 
 	"chatbot": {
 		"pcc": {
@@ -27,21 +27,23 @@
 					}
 				},
 				"comm-addr": {
-					"uri-entry": [{
-						"addr-uri-type": "SIP-URI",
-						"addr-uri": "sip:serviceid@example.com",
-						"label": "ServiceID"
-					},
-					{
-						"addr-uri-type": "Email",
-						"addr-uri": "mailto:service@example.com",
-						"label": "Email"
-					},
-					{
-						"addr-uri-type": "Other",
-						"addr-uri": "sms:+15105550101",
-						"label": "SMS"
-					}],
+					"uri-entry": [
+						{
+							"addr-uri-type": "SIP-URI",
+							"addr-uri": "sip:serviceid@example.com",
+							"label": "ServiceID"
+						},
+						{
+							"addr-uri-type": "Email",
+							"addr-uri": "mailto:service@example.com",
+							"label": "Email"
+						},
+						{
+							"addr-uri-type": "Other",
+							"addr-uri": "sms:+15105550101",
+							"label": "SMS"
+						}
+					],
 					"tel": {
 						"tel-type": "Work",
 						"tel-nb": {
@@ -51,30 +53,34 @@
 					}
 				},
 				"media-list": {
-					"media-entry": [{
-						"media-content": "Logo",
-						"media": {
-							"media-url": "http://example.com/myLogo.png"
+					"media-entry": [
+						{
+							"media-content": "Logo",
+							"media": {
+								"media-url": "http://example.com/myLogo.png"
+							},
+							"label": "Icon"
 						},
-						"label": "Icon"
-					},
-					{
-						"media-content": "Other",
-						"media": {
-							"content": "IzAwZmYwMA=="
-						},
-						"label": "Colour"
-					}]
+						{
+							"media-content": "Other",
+							"media": {
+								"content": "IzAwZmYwMA=="
+							},
+							"label": "Colour"
+						}
+					]
 				},
 				"web-resources": {
-					"web-entry": [{
-						"url": "http://example.com/index.html",
-						"label": "Website"
-					},
-					{
-						"url": "http://example.com/tc.html",
-						"label": "TCPage"
-					}]
+					"web-entry": [
+						{
+							"url": "http://example.com/index.html",
+							"label": "Website"
+						},
+						{
+							"url": "http://example.com/tc.html",
+							"label": "TCPage"
+						}
+					]
 				},
 				"org-description": "Example service description"
 			}
