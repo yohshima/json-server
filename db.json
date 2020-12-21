@@ -1,18 +1,19 @@
 {
-	"bots": [
-		{
-			"id": "sip:chatbot1@botplatform.example.com",
-			"name": "chatbot1",
-			"icon": "http://botplatform.example.com/chatbot1/icon.jpg"
-		},
-		{
-			"id": "sip:chatbot2@botplatform.example.com",
-			"name": "chatbot2",
-			"icon": "http://botplatform.example.com/chatbot2/icon.jpg"
-		}
-
-	],
-	"itemsReturned": 2,
-	"startIndex": 1,
-	"totalItems": 2
+	"botlists": {
+		"bots": [
+			{
+				"id": "sip:chatbot1@botplatform.example.com",
+				"name": "chatbot1",
+				"icon": "http://botplatform.example.com/chatbot1/icon.jpg"
+			},
+			{
+				"id": "sip:chatbot2@botplatform.example.com",
+				"name": "chatbot2",
+				"icon": "http://botplatform.example.com/chatbot2/icon.jpg"
+			}
+		],
+		"itemsReturned": 2,
+		"startIndex": 1,
+		"totalItems": 2
+	}
 }
