@@ -16,4 +16,69 @@
 		"startIndex": 1,
 		"totalItems": 2
 	}
+
+	"chatbot": {
+		"pcc": {
+			"pcc-type": "organizaton",
+			"org-details": {
+				"name": {
+					"name-entry": {
+						"display-name": "Service Name"
+					}
+				},
+				"comm-addr": {
+					"uri-entry": [{
+						"addr-uri-type": "SIP-URI",
+						"addr-uri": "sip:serviceid@example.com",
+						"label": "ServiceID"
+					},
+					{
+						"addr-uri-type": "Email",
+						"addr-uri": "mailto:service@example.com",
+						"label": "Email"
+					},
+					{
+						"addr-uri-type": "Other",
+						"addr-uri": "sms:+15105550101",
+						"label": "SMS"
+					}],
+					"tel": {
+						"tel-type": "Work",
+						"tel-nb": {
+							"tel-str": "1-800-555-1213"
+						},
+						"label": "Callback"
+					}
+				},
+				"media-list": {
+					"media-entry": [{
+						"media-content": "Logo",
+						"media": {
+							"media-url": "http://example.com/myLogo.png"
+						},
+						"label": "Icon"
+					},
+					{
+						"media-content": "Other",
+						"media": {
+							"content": "IzAwZmYwMA=="
+						},
+						"label": "Colour"
+					}]
+				},
+				"web-resources": {
+					"web-entry": [{
+						"url": "http://example.com/index.html",
+						"label": "Website"
+					},
+					{
+						"url": "http://example.com/tc.html",
+						"label": "TCPage"
+					}]
+				},
+				"org-description": "Example service description"
+			}
+		}
+	}
+
 }
