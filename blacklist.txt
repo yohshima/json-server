@@ -1,0 +1,4 @@
+sip:blacklist1@example.com
+tel:+14087771111
+sips:blacklist2@example.com
+tel:14087772222;phone-context=example.com
